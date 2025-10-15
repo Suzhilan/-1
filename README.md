@@ -1,7 +1,6 @@
-week1
-code
-
-#include<stdio.h>
+├──week1
+│├── code
+││├── #include<stdio.h>
 #include<stdlib.h>
 int main()
 {
@@ -9,8 +8,7 @@ int main()
 	system("pause");
 	return 0;
 }
-
-#include<stdio.h>
+│└── #include<stdio.h>
 
 int main()
 {
@@ -37,3 +35,25 @@ do{
 	}while (1);
 	return 0;
 }
+├──week2
+│├──code
+││├──#include<stdio.h>
+int main ()
+{
+    	typedef enum {
+		GPIO_Speed_2MHz,GPIO_Speed_10MHz,GPIO_Speed_50MHz
+	}GPIO_Speed2;
+	
+	typedef struct{GPIO_Speed2 GPIO_Speed;
+	}GPIO_Speed1;
+
+void GPIO_StructureInit(GPIO_Speed1*GPIO_3)
+{
+	GPIO_3->GPIO_Speed = GPIO_Speed_2MHz;
+}
+    GPIO_Speed1 GPIO_3;
+    GPIO_StructureInit(&GPIO_3);
+    
+	return 0;
+}
+││└──README.md
