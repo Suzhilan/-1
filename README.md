@@ -1,6 +1,6 @@
 ├─week1
 │├─code
-││├─
+││├─1;
 #include<stdio.h>
     #include<stdlib.h>
     int main()
@@ -10,7 +10,7 @@
 	    return 0;
     }
 
-││└─
+││└─2;
 #include<stdio.h>
 
     int main()
@@ -40,7 +40,7 @@
     }
 ├─week2
 │├─code
-││├─
+││├─1;
 #include<stdio.h>
     int main ()
     {
@@ -57,6 +57,5 @@
     }
         GPIO_Speed1 GPIO_3;
         GPIO_StructureInit(&GPIO_3);
-    
 	    return 0;
-   }
+}
