@@ -1,6 +1,7 @@
 ├─week1
 │├─code
-││├─#include<stdio.h>
+││├─
+#include<stdio.h>
     #include<stdlib.h>
     int main()
     {
@@ -8,7 +9,9 @@
 	    system("pause");
 	    return 0;
     }
-││└─#include<stdio.h>
+
+││└─
+#include<stdio.h>
 
     int main()
     {
@@ -37,7 +40,8 @@
     }
 ├─week2
 │├─code
-││├─#include<stdio.h>
+││├─
+#include<stdio.h>
     int main ()
     {
     	    typedef enum {
@@ -55,4 +59,4 @@
         GPIO_StructureInit(&GPIO_3);
     
 	    return 0;
-}
+   }
