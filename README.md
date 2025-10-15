@@ -1,15 +1,16 @@
 week1
-    code
-        #include<stdio.h>
-        #include<stdlib.h>
-        int main()
-        {
-	         printf("NO") ;
-	         system("pause");
-	         return 0;
-        }
+code
 
-        #include<stdio.h>
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	printf("NO") ;
+	system("pause");
+	return 0;
+}
+
+#include<stdio.h>
 
 int main()
 {
@@ -36,4 +37,3 @@ do{
 	}while (1);
 	return 0;
 }
-
